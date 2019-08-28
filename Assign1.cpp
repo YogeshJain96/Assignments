@@ -17,7 +17,7 @@ students in array.
 #include<iostream>
 #include<string>
 using namespace std;
-
+int cp=1;
 class Student
 {
 	int rn;
@@ -60,7 +60,7 @@ class Student
 			cout<<"\nCourse: "<<course<<endl;
 			
 		}
-		void Find(int r)
+		void Find(int r,int n)
 		{
 
 			if(r==rn)
@@ -68,6 +68,12 @@ class Student
 				cout<<"\nName: "<<name;
 				cout<<"\nCourse: "<<course<<endl;				
 			}
+			else if(cf==n)
+			{
+				cout<<"Not Found any Data."
+			}
+			else
+				cf++;
 
 		}
 
@@ -103,7 +109,7 @@ int main()
 	cin>>rollno;
 	for(int i=0;i<n;i++)
         {
-               s[i].Find(rollno);
+               s[i].Find(rollno,n);
 	}
 
 	delete	[]s;
