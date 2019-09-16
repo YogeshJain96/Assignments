@@ -1,8 +1,9 @@
 # Business Communications
 Assignments
-- Index 
-  - **"Not all who Wander are Lost"** - Abstract
-  - **"Not all who Wander are Lost"** - Presentation
+###### Index 
+  - **"Not all who Wander are Lost"**
+    - Abstract
+    - Presentation
 
 ## "Not all who Wander are Lost"
 Abstract
