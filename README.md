@@ -29,24 +29,24 @@ and implement following
 two time objects
 
 > 3. Create Date class with data members
-dd
-mm
-yyyy
+* dd
+* mm
+* yyyy
 and implement following
- Default constructor
- Parameterized constructor
- Destructor
- Function to find out difference between two
+- Default constructor
+- Parameterized constructor
+- Destructor
+- Function to find out difference between two
 dates
- Function to compare dates
- Separate header and implementation files
- Overlaod ==, !=, +, - operator
+- Function to compare dates
+- Separate header and implementation files
+- Overlaod ==, !=, +, - operator
 
 > 4. Create Your own String class (Use class name as
 MyString) with data members
 
--- char * p;
--- int size;
+* char * p;
+* int size;
 
 Allocate memory dynamically for pointer and get
 size from user.
