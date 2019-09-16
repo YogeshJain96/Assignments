@@ -4,7 +4,9 @@
 - RollNo
 - Name
 - Course
+
 and implement following
+
 - Default constructor
 - Parameterized constructor
 - Destructor
@@ -19,7 +21,9 @@ students in array.
 - hours
 - minutes
 - seconds
+
 and implement following
+
 - Default constructor
 - Parameterized constructor
 - Destructor
@@ -52,7 +56,9 @@ MyString) with data members
 
 Allocate memory dynamically for pointer and get
 size from user.
+
 Implement followings
+
 - Default constructor
 - Parameterized constructor
 - Copy Constructor
@@ -64,7 +70,9 @@ Implement followings
 - name
 - age
 - country
+
 Implement followings
+
 - Default constructor
 - Parameterized constructor
 - Function to Sort Array of Player objects
@@ -83,7 +91,9 @@ player list
 - Area
 - City
 - Pincode
+
 Implement followings
+
 - Default constructor
 - Parameterized constructor
 - Accept Function for data input
@@ -99,7 +109,9 @@ are same or different.
 - DA
 - HRA
 - BasicSalary
+
 Implement followings
+
 - Default constructor
 - Parameterized constructor
 - Accept Function for data input
@@ -124,10 +136,7 @@ Implement followings
 availability
 - Write menu driven program with following
 menus:
-
- - Add Mobile
- - Display List of available mobiles
- - Find out quantity of particular
-mobile type
- - Find out availability of Particular
-model
+  - Add Mobile
+  - Display List of available mobiles
+  - Find out quantity of particular mobile type
+  - Find out availability of Particular model
