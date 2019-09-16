@@ -1,9 +1,9 @@
 # Assignments
 
 > 1. Create Student class with data members
-RollNo
-Name
-Course
+- RollNo
+- Name
+- Course
 and implement following
 - Default constructor
 - Parameterized constructor
@@ -16,9 +16,9 @@ students in array.
 - Write Function to find student by Roll No
 
 > 2. Create Time class with data members
-hours
-minutes
-seconds
+- hours
+- minutes
+- seconds
 and implement following
 - Default constructor
 - Parameterized constructor
@@ -32,7 +32,9 @@ two time objects
 * dd
 * mm
 * yyyy
+
 and implement following
+
 - Default constructor
 - Parameterized constructor
 - Destructor
@@ -59,9 +61,9 @@ Implement followings
 - Separate header and implementation files
 
 > 5. Create Player class with data members
-name
-age
-country
+- name
+- age
+- country
 Implement followings
 - Default constructor
 - Parameterized constructor
@@ -76,11 +78,11 @@ and pass it to Sort function and print sorted
 player list
 
 > 6. Create Address class with data members
-HouseNo
-Colony
-Area
-City
-Pincode
+- HouseNo
+- Colony
+- Area
+- City
+- Pincode
 Implement followings
 - Default constructor
 - Parameterized constructor
@@ -92,11 +94,11 @@ are same or different.
 - Overlaod == operator
 
 > 7. Create Payslip class with data members
-EmpNo
-EmpName
-DA
-HRA
-BasicSalary
+- EmpNo
+- EmpName
+- DA
+- HRA
+- BasicSalary
 Implement followings
 - Default constructor
 - Parameterized constructor
@@ -104,15 +106,16 @@ Implement followings
 - Display function for data display
 - Function to calculate salary from DA, HRA and
 Basic Salary
- Separate header and implementation files
+- Separate header and implementation files
 
 > 8. Create MobilePhone class with data members
-ModelNo
-Price
-Manufacturer
-Quantity
+- ModelNo
+- Price
+- Manufacturer
+- Quantity
 
 Implement followings
+
 - Default constructor
 - Parameterized constructor
 - Accept Function for data input
@@ -120,11 +123,11 @@ Implement followings
 - Function to search MobilePhone model
 availability
 - Write menu driven program with following
-menus
+menus:
 
-o Add Mobile
-o Display List of available mobiles
-o Find out quantity of particular
+ - Add Mobile
+ - Display List of available mobiles
+ - Find out quantity of particular
 mobile type
-o Find out availability of Particular
+ - Find out availability of Particular
 model
