@@ -10,6 +10,13 @@ MD5 processes a variable-length message into a fixed-length output of 128 bits. 
 
 The output from MD5 is always a 128-bit message digest value.
 
+```
+A "word" is a 32-bit quantity and a "byte" is an eight-bit quantity here.
+```
+> Let x_i denote "x sub i". If the subscript is an expression, we surround it in braces, as in x_{i+1}. Similarly, we use ^ for superscripts (exponentiation), so that x^i denotes x to the i-th power.
+Let the symbol "+" denote addition of words (i.e., modulo-2^32 addition). Let X <<< s denote the 32-bit value obtained by circularly shifting (rotating) X left by s bit positions. Let not(X) denote the bit-wise complement of X, and let X v Y denote the bit-wise OR of X and Y. Let X xor Y denote the bit-wise XOR of X and Y, and let XY denote the bit-wise AND of X and Y.
+
+
 Computation of the MD5 digest value is performed in separate stages that process each 512-bit block of data along with the value computed in the preceding stage:
 
 * The first stage begins with the message digest values initialized using consecutive hexadecimal numerical values
