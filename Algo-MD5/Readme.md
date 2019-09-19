@@ -4,10 +4,14 @@
 
 # ALGORITHM
 
+The algorithm takes as input a message of arbitrary length and produces as output a 128-bit "fingerprint" or "message digest" of the input. It is often misunderstood that it is computationally infeasible to produce two messages having the same message digest, or to produce any message having a given prespecified target message digest.
+   
 MD5 processes a variable-length message into a fixed-length output of 128 bits. The input message is broken up into chunks of 512-bit blocks (sixteen 32-bit words); the message is padded so that its length is divisible by 512.
 
-The output from MD5 is a 128-bit message digest value.
+The output from MD5 is always a 128-bit message digest value.
+
 Computation of the MD5 digest value is performed in separate stages that process each 512-bit block of data along with the value computed in the preceding stage:
+
 * The first stage begins with the message digest values initialized using consecutive hexadecimal numerical values
 * Each stage includes four message digest passes which manipulate values in the current data block and values processed from the previous block
 * The final value computed from the last block becomes the MD5 digest for that block.
